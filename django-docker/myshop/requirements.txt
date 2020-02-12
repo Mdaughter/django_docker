@@ -4,7 +4,7 @@ py3Fdfs==2.1.0
 Babel==2.7.0
 billiard==3.6.0.0
 celery==4.3.0
-Django==2.2.6
+Django==2.2.10
 django-bootstrap3==11.0.0
 django-haystack==2.8.1
 django-redis==4.10.0
