@@ -1,87 +1,103 @@
 version: "3"
-
 services:
+  db:
+    image:  mysql:5.7 # mysql镜像，最好先拉取到本地
+    environment:
+      - MYSQL_DATABASE=shop
+      - MYSQL_ROOT_PASSWORD=760942500
+    command: [
+        '--character-set-server=utf8mb4',
+        '--collation-server=utf8mb4_unicode_ci',
+    ]
+    networks:
+      web-network:
+        aliases:
+          - db
+    volumes:
+        - /home/lja/Desktop/proj_1/db:/var/lib/mysql  # 将宿主机与容器中的文件映射
+    restart: always  # 若容器运行出现问题，会自动重启容器
 
-    db:
-        image:  mysql:5.7 # mysql镜像，最好先拉取到本地
-        environment:
-          MYSQL_DATABASE: shop
-          MYSQL_ROOT_PASSWORD: 760942500
-        command: [
-            '--character-set-server=utf8mb4',
-            '--collation-server=utf8mb4_unicode_ci',
-        ]
-        networks:
-          web-network:
-            aliases:
-              - db
-        volumes:
-            - /srv/db:/var/lib/mysql  # 将宿主机与容器中的文件映射
-        restart: always  # 若容器运行出现问题，会自动重启容器
+  web:
+    build: ./myshop
+#测试使用8000端口
+#    ports:
+#        - "8000:8000"
+    networks:
+      web-network:
+        aliases:
+          - web
+    volumes:
+        - /home/lja/Desktop/proj_1/myshop:/myshop
+    command: bash start.sh
+    depends_on:
+        - db
+        - redis
+    tty: true
+    restart: always
 
-    web:
-        build: ./myshop
-        volumes:
-            - ./myshop:/app/myshop
-        command: bash start.sh  # 执行命令，有多种格式
-        ports:
-            - "8081:8081"
-        networks:
-          web-network:
-            aliases:
-              - web
-        depends_on:
-            - db
-            - redis
-        restart: always
+  nginx:
+    build: ./nginx
+    ports:
+        - "80:80"
+    volumes:
+        - /home/lja/Desktop/proj_1/myshop/static_new:/usr/share/nginx/html/static
+    networks:
+      web-network:
+        aliases:
+          - nginx
+    depends_on:
+        - web
+    restart: always
 
-    nginx:
-        build: ./nginx
-        ports:
-            - "80:80"
-        volumes:
-            - ./myshop/static_new:/usr/share/nginx/html/static
-        networks:
-          web-network:
-            aliases:
-              - nginx
-        depends_on:
-            - web
-        restart: always
+  static_index:
+    image: nginx
+    volumes:
+        - /home/lja/Desktop/proj_1/myshop/static_new/www:/usr/share/nginx/html
+    expose:
+       - "80"
+    networks:
+      web-network:
+        aliases:
+          - static_index
+    restart: always
 
-    tracker:
-        build: ./tracker
-        networks:
-          web-network:
-            aliases:
-              - tracker
-        depends_on:
-            - web
-        volumes:
-            - ./tracker/fdfs_tracker:/var/fdfs
-        restart: always
+  tracker:
+    build: ./fdfs/tracker
+    networks:
+      web-network:
+        aliases:
+          - tracker
+        ipv4_address: 172.19.0.10
+    volumes:
+        - /home/lja/Desktop/proj_1/fdfs/tracker/fdfs:/var/fdfs
+    restart: always
 
-    storage:
-        build: ./storage
-        networks:
-          web-network:
-            aliases:
-              - storage
-        depends_on:
-            - tracker
-        volumes:
-            - ./storage/fdfs_storage:/var/fdfs
-        environment:
-            TRACKER_SERVER: tracker:22122             #设置为公网ip
-        restart: always
+  storage:
+    build: ./fdfs/storage
+    networks:
+      web-network:
+        aliases:
+          - storage
+        ipv4_address: 172.19.0.11
+    depends_on:
+        - tracker
+    volumes:
+        - /home/lja/Desktop/proj_1/fdfs/storage/fdfs:/var/fdfs
+    environment:
+      - TRACKER_SERVER=tracker:22122     #设置为公网ip
+    command: storage
+    restart: always
 
-    redis:
-        image: redis
-        networks:
-          web-network:
-            aliases:
-              - redisdb
-        restart: always
+  redis:
+    image: redis
+    networks:
+      web-network:
+        aliases:
+          - redisdb
+    restart: always
 
 networks:
   web-network:
+    ipam:
+        config:
+        - subnet: 172.19.0.0/16

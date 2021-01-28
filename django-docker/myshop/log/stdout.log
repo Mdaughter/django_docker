@@ -1,0 +1,876 @@
+INFO:      - "GET / HTTP/1.1" 200 OK
+INFO:      - "GET /static/admin/css/fonts.css HTTP/1.1" 404 Not Found
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 404 Not Found
+INFO:      - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:      - "GET /index HTTP/1.0" 301 Moved Permanently
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/7 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET / HTTP/1.0" 404 Not Found
+INFO:      - "GET / HTTP/1.0" 404 Not Found
+INFO:      - "GET / HTTP/1.0" 404 Not Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/order/1 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /goods/7 HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET / HTTP/1.0" 404 Not Found
+INFO:      - "GET /index HTTP/1.0" 301 Moved Permanently
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 302 Found
+INFO:      - "GET /user/login?next=/cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 500 Internal Server Error
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index.html HTTP/1.0" 404 Not Found
+INFO:      - "GET /index.html HTTP/1.0" 404 Not Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /cart/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/order/1 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/order/1 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/address/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 302 Found
+INFO:      - "GET /user/login?next=/user/order/1 HTTP/1.0" 200 OK
+INFO:      - "POST /user/login?next=/user/order/1 HTTP/1.0" 302 Found
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /admin HTTP/1.0" 301 Moved Permanently
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /favicon.ico HTTP/1.0" 404 Not Found
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+设置首页缓存
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/goods/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/goods/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/4/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/ HTTP/1.0" 200 OK
+设置首页缓存
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /upload/ HTTP/1.0" 404 Not Found
+INFO:      - "GET /index HTTP/1.0" 301 Moved Permanently
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /favicon.ico HTTP/1.0" 404 Not Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin HTTP/1.0" 301 Moved Permanently
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "POST /admin/goods/indextypegoodsbanner/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexpromotionbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodstype/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin HTTP/1.0" 301 Moved Permanently
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexpromotionbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goods/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodstype/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/10 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexpromotionbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/10 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+设置首页缓存
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+INFO:      - "GET /list/4/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/3/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/10 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/33 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/logout HTTP/1.0" 302 Found
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /list/2/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/34 HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/8 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indexgoodsbanner/2/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indexgoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+设置首页缓存
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexpromotionbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/32/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/32/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indexgoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/33/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/9/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/8/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/10/change/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+发出重新生成静态首页的任务
+INFO:      - "POST /admin/goods/indextypegoodsbanner/add/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/goods/indextypegoodsbanner/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+设置首页缓存
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+设置首页缓存
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/login/?next=/admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/index.html HTTP/1.0" 404 Not Found
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/register HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "GET /user/login HTTP/1.0" 200 OK
+INFO:      - "POST /user/login HTTP/1.0" 302 Found
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /inedx HTTP/1.0" 404 Not Found
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 302 Found
+INFO:      - "GET /user/login?next=/user/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 302 Found
+INFO:      - "GET /user/login?next=/cart/ HTTP/1.0" 200 OK
+INFO:      - "POST /user/login?next=/cart/ HTTP/1.0" 302 Found
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+1
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/ HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /user/order/1 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/9 HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /goods/10 HTTP/1.0" 200 OK
+INFO:      - "GET /goods/32 HTTP/1.0" 200 OK
+INFO:      - "POST /cart/add HTTP/1.0" 200 OK
+INFO:      - "GET /cart/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /admin/ HTTP/1.0" 500 Internal Server Error
+INFO:      - "GET /index/ HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/login/?next=/admin/ HTTP/1.0" 200 OK
+INFO:      - "POST /admin/login/?next=/admin/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/add/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/jsi18n/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/goods/goodssku/ HTTP/1.0" 200 OK
+INFO:      - "GET /admin/login/?next=/admin/ HTTP/1.0" 302 Found
+INFO:      - "GET /admin/ HTTP/1.0" 200 OK
+INFO:      - "GET /upload/ HTTP/1.0" 200 OK

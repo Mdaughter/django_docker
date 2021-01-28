@@ -15,10 +15,8 @@ from itsdangerous import SignatureExpired
 from user.models import User, Address
 from goods.models import GoodsSKU
 from order.models import OrderInfo, OrderGoods
-from celery_tasks import tasks
-
-
-# from apps.user import tasks
+from django.core.mail import send_mail
+from asgiref.sync import sync_to_async
 
 # Create your views here.
 
@@ -79,26 +77,24 @@ class RegisterView(View):
         # str
         token = token.decode()
 
-        # 组织邮件信息
-        # subject = '天天生鲜欢迎信息'
-        # message = ''
-        # sender = settings.EMAIL_FROM
-        # receiver = [email]
-        # html_message = """
-        #             <h1>%s, 欢迎您成为天天生鲜注册会员</h1>
-        #             请点击一下链接激活您的账号(7小时之内有效)<br/>
-        #             <a href="http://127.0.0.1:8000/user/active/%s">http://127.0.0.1:8000/user/active/%s</a>
-        #         """ % (username, token, token)
-        #
-        # # 发送激活邮件
-        # # send_mail(subject='邮件标题',
-        # #           message='邮件正文',
-        # #           from_email='发件人',
-        # #           recipient_list='收件人列表')
-        # send_mail(subject, message, sender, receiver, html_message=html_message)
-        tasks.send_register_active_email.delay(email, username, token)
+        def send_register_active_email(to_email, username, token):
+            """发送激活邮件"""
+            # 组织邮件内容
+            subject = '天天生鲜欢迎信息'
+            message = ''
+            sender = settings.EMAIL_FROM
+            receiver = [to_email]
+            html_message = """
+                                <h1>%s, 欢迎您成为天天生鲜注册会员</h1>
+                                请点击以下链接激活您的账户(7个小时内有效)<br/>
+                                <a href="http://web:8000/user/active/%s">http://web:8000/user/active/%s</a>
+                            """ % (username, token, token)
 
-        # 4.返回应答: 跳转到首页
+            # 发送激活邮件
+            # send_mail(subject=邮件标题, message=邮件正文,from_email=发件人, recipient_list=收件人列表)
+            send_mail(subject, message, sender, receiver, html_message=html_message)
+        sync_to_async(send_register_active_email(email, username, token), thread_sensitive=True)
+
         return redirect(reverse('goods:index'))
 
 
@@ -266,7 +262,10 @@ class UserInfoView(LoginRequiredMixin, View):
         skus = []
         for sku_id in sku_ids:
             # 根据商品的id查询商品的信息
-            sku = GoodsSKU.objects.get(id=sku_id)
+            try:
+                sku = GoodsSKU.objects.get(id=sku_id)
+            except:
+                pass
             # 追加到skus列表中
             skus.append(sku)
 

@@ -1,9 +1,4 @@
-"""商品搜索框检索, 索引文件生成"""
-'''
-@Time    : 2018/3/15 下午8:45
-@Author  : scrappy_zhang
-@File    : search_indexes.py
-'''
+
 
 from haystack import indexes
 from goods.models import GoodsSKU

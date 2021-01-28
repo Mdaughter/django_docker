@@ -5,7 +5,7 @@ from django.urls import reverse
 
 from django.views.generic import View
 from django_redis import get_redis_connection
-from goods.models import GoodsType, IndexGoodsBanner, IndexPromotionBanner, IndexTypeGoodsBanner, GoodsSKU
+from goods.models import *
 from order.models import OrderGoods
 
 # Create your views here.
@@ -238,3 +238,53 @@ class ListView(View):
 
         # 使用模板
         return render(request, 'goods/list.html', context)
+
+
+class UploadView(View):
+    "自行上传"
+    def get(self, request):
+        types = GoodsType.objects.all()
+        return render(request, 'goods/upload.html', {'types' : types})
+
+  
+    def post(self, request):
+        nickname = request.POST.get('nickname')
+        detail = request.POST.get('contact')
+        type = request.POST.get('type')               
+        goodsname = request.POST.get('goodsname')
+        desc = request.POST.get('desc')
+        price = request.POST.get('price')
+        unite = request.POST.get('unite')
+        image = request.FILES.get('image')
+        stock = request.POST.get('stock')
+
+        # 参数校验
+        if not all([nickname, 
+                    detail, 
+                    type,
+                    goodsname,
+                    desc,
+                    price,
+                    unite,
+                    image,
+                    stock]):
+            return render(request, 'goods/upload.html', {'errmsg' : '数据不完整'})
+        
+        category = GoodsType.objects.filter(pk=type).first()
+        goods = Goods.objects.filter(name="自营_"+nickname,
+                                    detail=detail)
+        if goods:
+            goods = goods.first()
+        else:
+            goods = Goods.objects.create(name="自营_"+nickname,
+                                        detail=detail)
+
+        item = GoodsSKU.objects.create(category=category,
+                                goods=goods,
+                                name=goodsname,
+                                desc=desc,
+                                price=price,
+                                unite=unite,
+                                image=image,
+                                stock=stock)
+        return render(request, 'goods/upload.html', {'success' : '提交成功'})
